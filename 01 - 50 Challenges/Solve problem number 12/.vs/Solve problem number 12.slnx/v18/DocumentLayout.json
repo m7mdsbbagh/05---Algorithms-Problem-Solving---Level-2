@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Course 5\\Solve problem number 12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88934768-C9B3-48D7-966A-A98C179FB41D}|Solve problem number 12\\Solve problem number 12.vcxproj|D:\\Projects\\Course 5\\Solve problem number 12\\Solve problem number 12\\Solve problem number 12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88934768-C9B3-48D7-966A-A98C179FB41D}|Solve problem number 12\\Solve problem number 12.vcxproj|solutionrelative:Solve problem number 12\\Solve problem number 12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Solve problem number 12.cpp",
+              "DocumentMoniker": "D:\\Projects\\Course 5\\Solve problem number 12\\Solve problem number 12\\Solve problem number 12.cpp",
+              "RelativeDocumentMoniker": "Solve problem number 12\\Solve problem number 12.cpp",
+              "ToolTip": "D:\\Projects\\Course 5\\Solve problem number 12\\Solve problem number 12\\Solve problem number 12.cpp",
+              "RelativeToolTip": "Solve problem number 12\\Solve problem number 12.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-24T09:35:20.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
