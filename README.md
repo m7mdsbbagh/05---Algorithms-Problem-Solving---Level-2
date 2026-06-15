@@ -1,40 +1,133 @@
 <div align="center">
 
+<pre>
+██████╗  ██████╗  ██████╗    ██████╗  ███████╗
+██╔══██╗██╔═══██╗██╔════╝    ██╔══██╗ ██╔════╝
+██████╔╝██║   ██║██║         ██████╔╝ ███████╗
+██╔══██╗██║   ██║██║         ██╔═══╝  ╚════██║
+██║  ██║╚██████╔╝╚██████╗    ██║      ███████║
+╚═╝  ╚═╝ ╚═════╝  ╚═════╝   ╚═╝      ╚══════╝
+</pre>
 
+# ✊ 🖐️ ✌️ Rock · Paper · Scissors
 
-\# 🚀 Algorithms \& Problem-Solving (Level 2)
+**A classic console game — built with C++, played against the machine.**
 
-
-
-\*\*Clean, modular, and optimized C++ solutions.\*\*
-
-
-
-`Instructor: Dr. Abu-Hadhoud` • `Platform: ProgrammingAdvices`
-
-
-
-\[!\[](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat-square\&logo=cplusplus)](https://cppreference.com)
-
-\[!\[](https://img.shields.io/badge/Challenges-50\_Solved-success?style=flat-square)]()
-
-\[!\[](https://img.shields.io/badge/Projects-2\_Built-blue?style=flat-square)]()
-
-
-
-\---
+<img src="https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+<img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge" />
 
 </div>
 
+---
 
+## 📸 Preview
 
-\## 📂 Repository Blueprint
+```
+╔══════════════════════════════════════╗
+║   ++ R o u n d  [ 1 ]  B e g i n s ++
+║                                      ║
+║   Your Choice                        ║
+║   ──────────────────────             ║
+║   '1' : Rock                         ║
+║   '2' : Paper                        ║
+║   '3' : Scissors                     ║
+║   --> 1                              ║
+║                                      ║
+║   Player Choice     : Rock           ║
+║   Computer Choice   : Scissors       ║
+║   Round Winner      : Player Wins!   ║
+╚══════════════════════════════════════╝
+```
 
+---
 
+## ⚡ Features
 
-```text
+| # | Feature | Details |
+|---|---------|---------|
+| 🎮 | Multi-Round | Play from **1 up to 20 rounds** per session |
+| 🤖 | Smart Random | Computer picks randomly every round |
+| 🎨 | Color Console | 🟢 You win · 🔴 CPU wins · 🟡 Draw |
+| 🔊 | Sound Effects | Beep feedback on win or loss |
+| 📊 | Game Summary | Full scoreboard displayed after the last round |
+| 🔁 | Play Again | Restart instantly without closing the program |
 
-├── 📁 01 - 50 Challenges          # Logic, arrays, loops, and math puzzles
+---
 
-└── 📁 02 - Rock Paper Scissors    # Fully modular game with custom UX/UI \& Audio
+## 🕹️ How to Play
 
+```
+1. Launch the game
+2. Choose number of rounds  →  (1 to 20)
+3. Each round, pick your move:
+
+        [ 1 ]  Rock
+        [ 2 ]  Paper
+        [ 3 ]  Scissors
+
+4. The result shows after every round
+5. Final winner is revealed at the end
+```
+
+---
+
+## 🏆 Win Conditions
+
+```
+  Rock     beats   Scissors
+  Scissors beats   Paper
+  Paper    beats   Rock
+```
+
+---
+
+## 🔧 Requirements
+
+```
+  OS        →  Windows
+  Compiler  →  MinGW / MSVC / g++
+  Standard  →  C++11 or later
+```
+
+---
+
+## ▶️ Compile & Run
+
+```bash
+# Compile
+g++ main.cpp -o rps.exe
+
+# Run
+./rps.exe
+```
+
+---
+
+## 📁 Project Structure
+
+```
+📂 02 - Rock Paper Scissors/
+│
+├── 📄 Project 1.cpp        ← All game logic lives here
+└── 📄 README.md       ← You are here
+```
+
+---
+
+## 🧠 Code Highlights
+
+```cpp
+enum enRockPaperScissors { ROCK = 1, PAPER, SCISSORS };
+enum enWinner            { PLAYER, COMPUTER, DRAW     };
+```
+
+> The game uses **enums** and **structs** to keep data clean and organized — no messy global variables.
+
+---
+
+<div align="center">
+
+Made with ❤️ by **Mohammad Al-Sabbagh** — CS Student, Year 1
+
+</div>
