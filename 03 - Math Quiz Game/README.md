@@ -117,7 +117,7 @@ g++ main.cpp -o quiz.exe
 ## 📁 Project Structure
 
 ```
-📂 03 - Math Quiz/
+📂 03 - Math Quiz Game/
 │
 ├── 📄 Project 2.cpp        ← All quiz logic lives here
 └── 📄 README.md            ← You are here
